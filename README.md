@@ -11,8 +11,6 @@
   ____) |  __/ (__| | |  __/ |_\__ \  ____) | | | | (_| | | | | | | | | | | | (_| | | | |
  |_____/ \___|\___|_|  \___|\__|___/ |_____/|_| |_|\__,_|_| |_| |_|_| |_| |_|\__,_|_| |_|
                                                                                          
-                                                                                         
-
 
 ## How it works
 Secrets Shaman is a Python tool to detect some possible secret patterns on Lambda environments variables and EC2 instances user-data across all AWS Organizations accounts and declared regions. It might run as a simple script or also as a continuous assessment tool if it runs scheduled somewhere (I recommend to run as a K8s cronjob or scheduled Lambda Function)
