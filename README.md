@@ -3,16 +3,16 @@
 
 
 
- _______  _______  _______  ______    _______  _______  _______    _______  __   __  _______  __   __  __   __  _______  __    _ 
-|       ||       ||       ||    _ |  |       ||       ||       |  |       ||  | |  ||   _   ||  |_|  ||  |_|  ||   _   ||  |  | |
-|  _____||    ___||       ||   | ||  |    ___||_     _||  _____|  |  _____||  |_|  ||  |_|  ||       ||       ||  |_|  ||   |_| |
-| |_____ |   |___ |       ||   |_||_ |   |___   |   |  | |_____   | |_____ |       ||       ||       ||       ||       ||       |
-|_____  ||    ___||      _||    __  ||    ___|  |   |  |_____  |  |_____  ||       ||       ||       ||       ||       ||  _    |
- _____| ||   |___ |     |_ |   |  | ||   |___   |   |   _____| |   _____| ||   _   ||   _   || ||_|| || ||_|| ||   _   || | |   |
-|_______||_______||_______||___|  |_||_______|  |___|  |_______|  |_______||__| |__||__| |__||_|   |_||_|   |_||__| |__||_|  |__|
 
+   _____                    _          _____ _                                           
+  / ____|                  | |        / ____| |                                          
+ | (___   ___  ___ _ __ ___| |_ ___  | (___ | |__   __ _ _ __ ___  _ __ ___   __ _ _ __  
+  \___ \ / _ \/ __| '__/ _ \ __/ __|  \___ \| '_ \ / _` | '_ ` _ \| '_ ` _ \ / _` | '_ \ 
+  ____) |  __/ (__| | |  __/ |_\__ \  ____) | | | | (_| | | | | | | | | | | | (_| | | | |
+ |_____/ \___|\___|_|  \___|\__|___/ |_____/|_| |_|\__,_|_| |_| |_|_| |_| |_|\__,_|_| |_|
+                                                                                         
+                                                                                         
 
-<img src="./img/secrets_shaman_logo.png" width="40%"/>
 
 ## How it works
 Secrets Shaman is a Python tool to detect some possible secret patterns on Lambda environments variables and EC2 instances user-data across all AWS Organizations accounts and declared regions. It might run as a simple script or also as a continuous assessment tool if it runs scheduled somewhere (I recommend to run as a K8s cronjob or scheduled Lambda Function)
